@@ -16,7 +16,7 @@ cek_input_valid = nilai_1 or nilai_2 or nilai_3
 input_valid = True
 tidak_valid = "Input Tidak Sesuai"
 
-if cek_input_valid < 0 or cek_input_valid> 100:
+if cek_input_valid < 0 or cek_input_valid > 100:
     input_valid = False
     print(tidak_valid)
 
